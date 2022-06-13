@@ -70,7 +70,7 @@ if __name__ == '__main__':
     opt = parser.parse_args()
     print(opt)
 
-    source = ("Image")
+    source = ("Image",)
     source_index = st.sidebar.selectbox("Select Input", range(
         len(source)), format_func=lambda x: source[x])
 
